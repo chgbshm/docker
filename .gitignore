@@ -1,0 +1,4 @@
+mysql/data
+nginx/conf/vhost/ft.conf
+*.log
+redis/data
