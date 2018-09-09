@@ -1,0 +1,96 @@
+2018/09/09 15:27:47 [error] 5#0: *1 directory index of "/usr/local/nginx/html/" is forbidden, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/apple-touch-icon.png" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /apple-touch-icon.png HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/apple-touch-icon.png" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /apple-touch-icon.png HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *1 directory index of "/usr/local/nginx/html/" is forbidden, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/apple-touch-icon.png" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /apple-touch-icon.png HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/apple-touch-icon.png" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /apple-touch-icon.png HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *2 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:47 [error] 5#0: *3 directory index of "/usr/local/nginx/html/" is forbidden, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:48 [error] 5#0: *2 open() "/usr/local/nginx/html/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "127.0.0.1"
+2018/09/09 15:27:48 [error] 5#0: *2 open() "/usr/local/nginx/html/apple-touch-icon.png" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /apple-touch-icon.png HTTP/1.1", host: "127.0.0.1"
+2018/09/09 16:32:10 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:32:12 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:32:13 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:32:14 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:32:20 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:32:22 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:32:26 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:32:34 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:32:47 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:33:14 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:33:24 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:33:25 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:33:26 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:33:27 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:33:29 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:33:36 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:33:40 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:33:47 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:34:01 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:34:27 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:35:19 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:36:07 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:36:08 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:36:09 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:36:16 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:36:18 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:36:21 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:36:24 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:36:32 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:36:46 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:37:12 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:38:04 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:54:47 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:54:51 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:54:52 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:54:53 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:54:57 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:54:59 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:55:03 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:55:15 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:6
+2018/09/09 16:55:29 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:55:36 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:55:37 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:55:38 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:55:43 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:55:45 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:55:47 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:55:51 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:55:58 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:56:12 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:56:38 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:57:30 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:58:31 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 16:59:31 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 17:00:32 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 17:01:33 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 17:02:33 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 17:03:38 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 17:04:40 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:51:43 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:52:44 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:53:26 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:53:27 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:53:28 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:53:29 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:53:34 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:53:37 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:53:41 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:53:48 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:54:02 [emerg] 1#0: directive "root" is not terminated by ";" in /usr/local/nginx/conf/./vhost/ft.conf:19
+2018/09/09 18:54:42 [error] 6#0: *7 open() "/usr/local/nginx/html/huazhen-20170921/public/images/img_sp.jpg" failed (2: No such file or directory), client: 172.22.0.1, server: dev.ft.com, request: "GET /images/img_sp.jpg HTTP/1.1", host: "dev.ft.com", referrer: "http://dev.ft.com/"
+2018/09/09 18:54:48 [error] 6#0: *12 open() "/usr/local/nginx/html/huazhen-20170921/public/hz_admin" failed (2: No such file or directory), client: 172.22.0.1, server: dev.ft.com, request: "GET /hz_admin HTTP/1.1", host: "dev.ft.com"
+2018/09/09 18:54:48 [error] 6#0: *13 open() "/usr/local/nginx/html/huazhen-20170921/public/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 172.22.0.1, server: dev.ft.com, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "dev.ft.com"
+2018/09/09 18:54:48 [error] 6#0: *13 open() "/usr/local/nginx/html/huazhen-20170921/public/apple-touch-icon.png" failed (2: No such file or directory), client: 172.22.0.1, server: dev.ft.com, request: "GET /apple-touch-icon.png HTTP/1.1", host: "dev.ft.com"
+2018/09/09 18:54:48 [error] 6#0: *1 open() "/usr/local/nginx/html/huazhen-20170921/public/hz_admin" failed (2: No such file or directory), client: 172.22.0.1, server: dev.ft.com, request: "GET /hz_admin HTTP/1.1", host: "dev.ft.com"
+2018/09/09 18:54:51 [error] 6#0: *13 open() "/usr/local/nginx/html/huazhen-20170921/public/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 172.22.0.1, server: dev.ft.com, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "dev.ft.com"
+2018/09/09 18:54:51 [error] 6#0: *13 open() "/usr/local/nginx/html/huazhen-20170921/public/apple-touch-icon.png" failed (2: No such file or directory), client: 172.22.0.1, server: dev.ft.com, request: "GET /apple-touch-icon.png HTTP/1.1", host: "dev.ft.com"
+2018/09/09 18:54:56 [error] 6#0: *13 open() "/usr/local/nginx/html/huazhen-20170921/public/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 172.22.0.1, server: dev.ft.com, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "dev.ft.com"
+2018/09/09 18:54:56 [error] 6#0: *13 open() "/usr/local/nginx/html/huazhen-20170921/public/apple-touch-icon.png" failed (2: No such file or directory), client: 172.22.0.1, server: dev.ft.com, request: "GET /apple-touch-icon.png HTTP/1.1", host: "dev.ft.com"

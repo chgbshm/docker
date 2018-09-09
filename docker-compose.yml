@@ -1,0 +1,54 @@
+version : '2.1'
+services :
+  mysql :
+    build :
+      context : ./mysql
+      dockerfile : dockerfile
+    ports :
+    - "3306:3306"
+    volumes :
+    - ./mysql/data:/var/lib/mysql
+    #初始密码
+    environment :
+    - MYSQL_ROOT_PASSWORD=123456
+    container_name : mysql
+    restart : always
+  php71 :
+    build :
+      context : ./php71
+      dockerfile : dockerfile
+    ports :
+    - "9000:9000"
+    volumes :
+    - /Users/weeds/web:/usr/local/nginx/html
+    - ./php71/conf/php.ini:/usr/local/php71/lib/php.ini:ro
+    container_name : php71
+    external_links :
+    - mysql
+    restart : always
+  nginx :
+    build :
+      context : ./nginx
+      dockerfile : dockerfile
+    ports :
+    - "80:80"
+    - "443:443"
+    volumes :
+    - ./nginx/logs:/usr/local/nginx/logs
+    - /Users/weeds/web:/usr/local/nginx/html
+    - ./nginx/conf/nginx.conf:/usr/local/nginx/conf/nginx.conf:ro
+    - ./nginx/conf/vhost:/usr/local/nginx/conf/vhost:ro
+    container_name : nginx
+    external_links :
+    - php71
+    restart : always
+  redis :
+    image : redis
+    container_name : redis
+    volumes :
+    - ./redis/data:/data
+    - ./redis/conf/redis.conf:/usr/local/etc/redis/redis.conf
+    ports :
+    - 6379:6379
+    command : redis-server /usr/local/etc/redis/redis.conf
+    restart: always
