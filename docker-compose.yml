@@ -5,24 +5,29 @@ services :
       context : ./mysql
       dockerfile : dockerfile
     ports :
-    - "3306:3306"
+    - "${MYSQL_PORT}:3306"
     volumes :
     - ./mysql/data:/var/lib/mysql
     #初始密码
     environment :
-    - MYSQL_ROOT_PASSWORD=123456
+    - MYSQL_USER=${MYSQL_USER}
+    - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+
     container_name : mysql
     restart : always
-  php71 :
+  php :
     build :
-      context : ./php71
+      context : ./php
       dockerfile : dockerfile
+      args:
+        - WEEDS_PHP_VERSION=${PHP_VERSION}
     ports :
     - "9000:9000"
     volumes :
-    - /Users/weeds/web:/usr/local/nginx/html
-    - ./php71/conf/php.ini:/usr/local/php71/lib/php.ini:ro
-    container_name : php71
+    - ${WORKPLACE}:/usr/local/nginx/html
+    - ./php/conf/php${PHP_VERSION}.ini:/usr/local/php/lib/php.ini:ro
+    container_name : php
     external_links :
     - mysql
     restart : always
@@ -31,16 +36,16 @@ services :
       context : ./nginx
       dockerfile : dockerfile
     ports :
-    - "80:80"
-    - "443:443"
+    - "${NGINX_HOST_HTTP_PORT}:80"
+    - "${NGINX_HOST_HTTPS_PORT}:443"
     volumes :
     - ./nginx/logs:/usr/local/nginx/logs
-    - /Users/weeds/web:/usr/local/nginx/html
+    - ${WORKPLACE}:/usr/local/nginx/html
     - ./nginx/conf/nginx.conf:/usr/local/nginx/conf/nginx.conf:ro
     - ./nginx/conf/vhost:/usr/local/nginx/conf/vhost:ro
     container_name : nginx
     external_links :
-    - php71
+    - php
     restart : always
   redis :
     image : redis
@@ -49,6 +54,6 @@ services :
     - ./redis/data:/data
     - ./redis/conf/redis.conf:/usr/local/etc/redis/redis.conf
     ports :
-    - 6379:6379
+    - ${REDIS_PORT}:6379
     command : redis-server /usr/local/etc/redis/redis.conf
     restart: always
