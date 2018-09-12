@@ -1,3 +1,3 @@
 <?php
-echo __dir__;
+echo __DIR__;
 phpinfo();

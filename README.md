@@ -4,6 +4,7 @@
 ~~~git
 git clone git@github.com:weedsks/docker.git
 cd docker
+cp env_example .env
 sudo docker-compose up -d
 ~~~
 切换php版本，env下修改，目前提供 5.6.37，7.1.21，7.2.9，三个版本
