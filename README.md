@@ -1,6 +1,7 @@
 # docker
 # 个人学习用
 # nginx1.4 php redis4.0.11 mysql5.7
+# 先安装docker https://docs.docker.com/install/
 ~~~git
 git clone git@github.com:weedsks/docker.git
 cd docker
