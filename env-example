@@ -2,7 +2,7 @@
 # php版本 5.6.37，7.1.21，7.2.9，
 PHP_VERSION=7.1.21
 # 项目目录
-WORKPLACE=/home/weeds/weeds/project
+WORKPLACE=./www/
 
 ### NGINX #################################################
 NGINX_HOST_HTTP_PORT=80 
